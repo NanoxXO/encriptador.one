@@ -11,7 +11,7 @@
         <img src="./img/logo.png" alt="logo">
     </header>
     <main>
-        <section class="textarea">
+        <section class="textarea" data-texto>
             <textarea placeholder="Ingrese el texto aqui"></textarea>
         </section>
         <section class="section-btn">
@@ -19,17 +19,19 @@
             <img src="./img/esclamacion.png" alt="imagen">
             <p>Solo letras minusculas y sin acentos</p>
             </div>
-            <div>
-                <button class="btn-encriptar">Encriptar</button>
-                <button  class="btn-desencriptar">Desencriptar</button>
+            <div class="contenedor-btn">
+                <button class="btn-encriptar" data-encriptar>Encriptar</button>
+                <button  class="btn-desencriptar" data-desencriptar>Desencriptar</button>
             </div>
         </section>
         <aside>
             <div>
-                <img src="./img/mono.png" alt="imagen">
+                <img src="./img/mono.png" alt="imagen" data-mono>
             </div>
             <h1>No se encuentra ningun mensaje adyacente.</h1>
+            <button data-copiar>copiar</button>
         </aside>
     </main>
+    <script src="./main.js"></script> <!--aqui unimos java y html-->
 </body>
 </html>
